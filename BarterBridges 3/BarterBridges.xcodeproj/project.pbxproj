@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D93DB992B9F3BD400BA0F38 /* BarterBridgesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB882B9F3BD400BA0F38 /* BarterBridgesApp.swift */; };
+		2D93DB9A2B9F3BD400BA0F38 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB8A2B9F3BD400BA0F38 /* LocationsDataService.swift */; };
+		2D93DB9B2B9F3BD400BA0F38 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB8C2B9F3BD400BA0F38 /* LocationsViewModel.swift */; };
+		2D93DB9C2B9F3BD400BA0F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D93DB8D2B9F3BD400BA0F38 /* Assets.xcassets */; };
+		2D93DB9D2B9F3BD400BA0F38 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB8F2B9F3BD400BA0F38 /* Location.swift */; };
+		2D93DB9E2B9F3BD400BA0F38 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D93DB912B9F3BD400BA0F38 /* Preview Assets.xcassets */; };
+		2D93DB9F2B9F3BD400BA0F38 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB932B9F3BD400BA0F38 /* LocationsView.swift */; };
+		2D93DBA02B9F3BD400BA0F38 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB942B9F3BD400BA0F38 /* LocationDetailView.swift */; };
+		2D93DBA12B9F3BD400BA0F38 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB952B9F3BD400BA0F38 /* LocationPreviewView.swift */; };
+		2D93DBA22B9F3BD400BA0F38 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB962B9F3BD400BA0F38 /* LocationMapAnnotationView.swift */; };
+		2D93DBA32B9F3BD400BA0F38 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB972B9F3BD400BA0F38 /* LocationsListView.swift */; };
+		2D93DBA42B9F3BD400BA0F38 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D93DB982B9F3BD400BA0F38 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D93DB882B9F3BD400BA0F38 /* BarterBridgesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarterBridgesApp.swift; sourceTree = "<group>"; };
+		2D93DB8A2B9F3BD400BA0F38 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		2D93DB8C2B9F3BD400BA0F38 /* LocationsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		2D93DB8D2B9F3BD400BA0F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D93DB8F2B9F3BD400BA0F38 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2D93DB912B9F3BD400BA0F38 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D93DB932B9F3BD400BA0F38 /* LocationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		2D93DB942B9F3BD400BA0F38 /* LocationDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		2D93DB952B9F3BD400BA0F38 /* LocationPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		2D93DB962B9F3BD400BA0F38 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		2D93DB972B9F3BD400BA0F38 /* LocationsListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		2D93DB982B9F3BD400BA0F38 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A53D86022B62ABE100B92E66 /* BarterBridges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarterBridges.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53D85FF2B62ABE100B92E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D93DB872B9F3BD400BA0F38 /* BarterBridges */ = {
+			isa = PBXGroup;
+			children = (
+				2D93DB882B9F3BD400BA0F38 /* BarterBridgesApp.swift */,
+				2D93DB892B9F3BD400BA0F38 /* DataServices */,
+				2D93DB8B2B9F3BD400BA0F38 /* ViewModels */,
+				2D93DB8D2B9F3BD400BA0F38 /* Assets.xcassets */,
+				2D93DB8E2B9F3BD400BA0F38 /* Models */,
+				2D93DB902B9F3BD400BA0F38 /* Preview Content */,
+				2D93DB922B9F3BD400BA0F38 /* Views */,
+				2D93DB982B9F3BD400BA0F38 /* ContentView.swift */,
+			);
+			path = BarterBridges;
+			sourceTree = "<group>";
+		};
+		2D93DB892B9F3BD400BA0F38 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				2D93DB8A2B9F3BD400BA0F38 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		2D93DB8B2B9F3BD400BA0F38 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2D93DB8C2B9F3BD400BA0F38 /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2D93DB8E2B9F3BD400BA0F38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2D93DB8F2B9F3BD400BA0F38 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2D93DB902B9F3BD400BA0F38 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D93DB912B9F3BD400BA0F38 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D93DB922B9F3BD400BA0F38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D93DB932B9F3BD400BA0F38 /* LocationsView.swift */,
+				2D93DB942B9F3BD400BA0F38 /* LocationDetailView.swift */,
+				2D93DB952B9F3BD400BA0F38 /* LocationPreviewView.swift */,
+				2D93DB962B9F3BD400BA0F38 /* LocationMapAnnotationView.swift */,
+				2D93DB972B9F3BD400BA0F38 /* LocationsListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A53D85F92B62ABE100B92E66 = {
+			isa = PBXGroup;
+			children = (
+				2D93DB872B9F3BD400BA0F38 /* BarterBridges */,
+				A53D86032B62ABE100B92E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A53D86032B62ABE100B92E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53D86022B62ABE100B92E66 /* BarterBridges.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53D86012B62ABE100B92E66 /* BarterBridges */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A53D86102B62ABE300B92E66 /* Build configuration list for PBXNativeTarget "BarterBridges" */;
+			buildPhases = (
+				A53D85FE2B62ABE100B92E66 /* Sources */,
+				A53D85FF2B62ABE100B92E66 /* Frameworks */,
+				A53D86002B62ABE100B92E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarterBridges;
+			productName = BarterBridges;
+			productReference = A53D86022B62ABE100B92E66 /* BarterBridges.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53D85FA2B62ABE100B92E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A53D86012B62ABE100B92E66 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A53D85FD2B62ABE100B92E66 /* Build configuration list for PBXProject "BarterBridges" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53D85F92B62ABE100B92E66;
+			productRefGroup = A53D86032B62ABE100B92E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53D86012B62ABE100B92E66 /* BarterBridges */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53D86002B62ABE100B92E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D93DB9E2B9F3BD400BA0F38 /* Preview Assets.xcassets in Resources */,
+				2D93DB9C2B9F3BD400BA0F38 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53D85FE2B62ABE100B92E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D93DB9A2B9F3BD400BA0F38 /* LocationsDataService.swift in Sources */,
+				2D93DB9B2B9F3BD400BA0F38 /* LocationsViewModel.swift in Sources */,
+				2D93DBA02B9F3BD400BA0F38 /* LocationDetailView.swift in Sources */,
+				2D93DBA32B9F3BD400BA0F38 /* LocationsListView.swift in Sources */,
+				2D93DB9F2B9F3BD400BA0F38 /* LocationsView.swift in Sources */,
+				2D93DBA12B9F3BD400BA0F38 /* LocationPreviewView.swift in Sources */,
+				2D93DBA42B9F3BD400BA0F38 /* ContentView.swift in Sources */,
+				2D93DB9D2B9F3BD400BA0F38 /* Location.swift in Sources */,
+				2D93DB992B9F3BD400BA0F38 /* BarterBridgesApp.swift in Sources */,
+				2D93DBA22B9F3BD400BA0F38 /* LocationMapAnnotationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A53D860E2B62ABE300B92E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A53D860F2B62ABE300B92E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A53D86112B62ABE300B92E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"BarterBridges/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C6XN8MXV9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Barter Bridges";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FiveGuys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A53D86122B62ABE300B92E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_ASSET_PATHS = "\"BarterBridges/Preview Content\"";
+				DEVELOPMENT_TEAM = 3C6XN8MXV9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Barter Bridges";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FiveGuys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53D85FD2B62ABE100B92E66 /* Build configuration list for PBXProject "BarterBridges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D860E2B62ABE300B92E66 /* Debug */,
+				A53D860F2B62ABE300B92E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A53D86102B62ABE300B92E66 /* Build configuration list for PBXNativeTarget "BarterBridges" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A53D86112B62ABE300B92E66 /* Debug */,
+				A53D86122B62ABE300B92E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A53D85FA2B62ABE100B92E66 /* Project object */;
+}
